@@ -66,7 +66,7 @@ function Navbar() {
         className="nav-btn"
         onClick={() => setActive("contact")}
       >
-        Hire Me
+        {/* Hire Me */}
       </a>
 
     </nav>

@@ -8,7 +8,7 @@ function Hero() {
 
         <h1>Ashok Kumar</h1>
 
-        <h2>React Developer</h2>
+        <h2>React Developer (Software Developer)</h2>
 
         <p>
           I build modern, responsive and user-friendly

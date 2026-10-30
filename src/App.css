@@ -127,7 +127,7 @@ a {
 
 .greeting {
   color: #38bdf8;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 5px;
   font-weight: 700;
 }
@@ -264,12 +264,22 @@ a {
 }
 
 .project-card {
-  background: linear-gradient(145deg, #1b2540, #111729);
-  padding: 30px;
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 16px;
+   background: linear-gradient(
+    135deg,
+    #243b70,
+    #493b83,
+    #303d70
+  );
+  padding: 28px;
+    border: 1px solid rgba(167, 180, 255, 0.35);
+  border-radius: 19px;
   text-align: left;
-  transition: 0.35s;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   height: 100%;
